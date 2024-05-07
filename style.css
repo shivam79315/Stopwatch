@@ -1,0 +1,52 @@
+.container
+{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+}
+
+.btn
+{
+    border-radius: 12px;
+    height:54px;
+    width:185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    transform: scale(1);
+    transition: transform 0.2s;
+    border:2.3px solid #00CB6C;
+}
+
+.btn span
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#00CB6C;
+}
+
+.btn:active
+{
+    transform: scale(1.02);
+}
+
+.btnGroup
+{
+    margin-top:50px;
+    gap: 20px;
+}
+
+.btnGroup .btn
+{
+    width:185px;
+    height:52px;
+    outline:none;
+    border-radius:8px;
+}
+
+.time
+{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color:white;
+}
